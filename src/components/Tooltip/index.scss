@@ -1,0 +1,26 @@
+.tooltip {
+  background-color: #f5f7f57d;
+  padding: 8px;
+  border-radius: 8px;
+  width: 160px;
+  position: absolute;
+  z-index: 1000;
+  margin-top: 40px;
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  &__heading {
+    margin: 0;
+    font-size: 16px;
+  }
+
+  &__content {
+    font-size: 12px;
+    line-height: 20px;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+}

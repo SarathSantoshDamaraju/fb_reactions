@@ -1,0 +1,19 @@
+.tab-list {
+  border-bottom: 1px solid #3a3b3c;
+  padding-left: 0;
+}
+
+ul.tab-content {
+  padding: 0px 12px;
+}
+
+.tab-list-item {
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+}
+
+.tab-list-active {
+  border-bottom: solid #2078f4;
+}
